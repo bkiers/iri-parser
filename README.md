@@ -1,6 +1,6 @@
 # IRI-parser
 
-An IRI ANTLR 4 grammar and parser.
+An ANTLR 4 grammar and parser for IRI (Internationalized Resource Identifiers).
 
 The grammar can be found in 
 [`src/main/antlr4/nl/bigo/iriparser`](https://github.com/bkiers/iri-parser/tree/master/src/main/antlr4/nl/bigo/iriparser).
