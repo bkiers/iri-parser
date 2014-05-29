@@ -369,7 +369,10 @@ non_zero_digit
 UCSCHAR
  : '\u00A0'..'\uD7FF'
  | '\uF900'..'\uFDCF'
- | '\uFDF0'..'\uFFEF'  
+ | '\uFDF0'..'\uFFEF' 
+ | '\u10000'..'\u1FFFD' 
+ | '\u20000'..'\u2FFFD' 
+ | '\u30000'..'\u3FFFD'
  | '\u40000'..'\u4FFFD'
  | '\u50000'..'\u5FFFD'
  | '\u60000'..'\u6FFFD'
